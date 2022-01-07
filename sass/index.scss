@@ -1,0 +1,147 @@
+// Cores
+$cor_1: #128c7e;
+$cor_2: #1CB39B;
+$cor_3: linear-gradient(84.06deg, #0088FF -28.62%, #A033FF 36.39%, #FF5C87 98.74%);
+$cor_4: #D8E8EA;
+$cor_5: #c75000;
+$cor_6: #eff2f5;
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+a, li, button, input{
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menu{
+    padding: 30px 0;
+    font-size: 0.9em;
+    background-color: $cor_1;
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 10em;
+        height: auto;
+        margin: 0 0 5px 0;
+    }
+
+    ul{
+        display: flex;
+        margin: 0;
+        
+        li{
+            font-weight: 500;
+            margin: 0 15px;
+            border-bottom: 3px solid transparent;
+
+            &:hover{
+                width: auto;
+                border-bottom: 3px solid $cor_1;
+            }
+
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+
+        }
+        
+    }    
+
+}
+
+.intro{
+    padding: 30px 0 50px 0;
+
+    .row{
+        display: flex;
+        align-items: center
+    }
+
+    img{
+        padding: 5%;
+        width: 100%;
+    }
+
+    small{
+        color: #aaa;
+    }
+
+    ul{
+        margin: 30px 0 0 0;
+        padding: 0;
+
+        li{
+            font-weight: bold;
+            line-height: 2;
+
+            a{
+                color: $cor_2;
+
+                i{
+                    margin: 0 10px 0 0;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.app{
+    width: 100%;
+    height: auto;
+    padding: 70px 100px 0 100px;
+    text-align: center;
+    background-color: $cor_4;
+
+    h2{
+        margin: 0 0 30px 0;
+        font-weight: bold;
+    }
+
+    img{
+        width: 80%;
+        margin: 40px 0 0 0;
+        height: auto;
+    }
+
+}
+
+.footer{
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    small{
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 0.8em;
+        margin: 0 10px;
+    }
+   
+}
+
+
+
+
+// Media Queries
+@media (max-width: 768px) { 
+
+
+    
+}
+// Media Queries
